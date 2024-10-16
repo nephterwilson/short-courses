@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .course-details {
+            display: none; /* Initially hide course details */
+            margin-top: 10px;
+        }
+        .toggle-button {
+            cursor: pointer;
+            color: #007BFF; /* Change this to your desired color */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Learn Academy</div>
+        <nav>
+            <ul>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="courses">
+            <h1>Basic Tech Fundamental Courses for Mastery</h1>
+            <div class="course-container">
+
+                <!-- Digital Literacy Skills Course -->
+                <div class="course-box">
+                    <h2>Digital Literacy Skills Course</h2>
+                    <span class="toggle-button" onclick="toggleDetails('digitalLiteracy')">Show Details</span>
+                    <div id="digitalLiteracy" class="course-details">
+                        <p><strong>Modules:</strong></p>
+                        <ul>
+                            <li>Using Microsoft Office Tools
+                                <ul>
+                                    <li>Creating documents (Word), spreadsheets (Excel), presentations (PowerPoint)</li>
+                                    <li>Outcome: Create basic reports, budgets, and slides.</li>
+                                    <li>Tools: Microsoft Office Suite</li>
+                                </ul>
+                            </li>
+                            <li>Internet Browsing & Email
+                                <ul>
+                                    <li>Search engines, setting up and using Gmail</li>
+                                    <li>Outcome: Send emails and find information online easily.</li>
+                                    <li>Tools: Google Chrome, Gmail</li>
+                                </ul>
+                            </li>
+                            <li>Social Media Basics
+                                <ul>
+                                    <li>Managing Facebook and WhatsApp accounts</li>
+                                    <li>Outcome: Use social media responsibly for communication.</li>
+                                    <li>Tools: Facebook, WhatsApp</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="https://forms.gle/hGjLzUAgGiWjKNM4A" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+
+                <!-- Comprehensive Google Workspace Course -->
+                <div class="course-box">
+                    <h2>Comprehensive Google Workspace Course</h2>
+                    <span class="toggle-button" onclick="toggleDetails('googleWorkspace')">Show Details</span>
+                    <div id="googleWorkspace" class="course-details">
+                        <p><strong>Modules:</strong></p>
+                        <ul>
+                            <li>Getting Started with Google Workspace
+                                <ul>
+                                    <li>Overview of Google Workspace and its applications.</li>
+                                    <li>Outcome: Understand the tools available in Google Workspace.</li>
+                                    <li>Tools: Google Workspace (Gmail, Drive, Docs, Sheets, Slides)</li>
+                                </ul>
+                            </li>
+                            <li>Effective Communication with Gmail
+                                <ul>
+                                    <li>Setting up Gmail and using advanced features.</li>
+                                    <li>Outcome: Efficiently manage emails.</li>
+                                    <li>Tools: Gmail</li>
+                                </ul>
+                            </li>
+                            <li>Collaborative Document Editing with Google Docs
+                                <ul>
+                                    <li>Creating and sharing documents; real-time collaboration features.</li>
+                                    <li>Outcome: Produce well-structured documents collaboratively.</li>
+                                    <li>Tools: Google Docs</li>
+                                </ul>
+                            </li>
+                            <li>Data Management with Google Sheets
+                                <ul>
+                                    <li>Creating spreadsheets and using formulas.</li>
+                                    <li>Outcome: Analyze and present data effectively.</li>
+                                    <li>Tools: Google Sheets</li>
+                                </ul>
+                            </li>
+                            <li>Presenting with Google Slides
+                                <ul>
+                                    <li>Creating engaging presentations.</li>
+                                    <li>Outcome: Develop professional presentations.</li>
+                                    <li>Tools: Google Slides</li>
+                                </ul>
+                            </li>
+                            <li>Storage and File Management with Google Drive
+                                <ul>
+                                    <li>Organizing files and sharing permissions.</li>
+                                    <li>Outcome: Manage files efficiently in the cloud.</li>
+                                    <li>Tools: Google Drive</li>
+                                </ul>
+                            </li>
+                            <li>Utilizing Google Calendar for Time Management
+                                <ul>
+                                    <li>Scheduling events and setting reminders.</li>
+                                    <li>Outcome: Improve time management skills.</li>
+                                    <li>Tools: Google Calendar</li>
+                                </ul>
+                            </li>
+                            <li>Integrating Google Workspace Apps
+                                <ul>
+                                    <li>Using various Google Workspace tools together.</li>
+                                    <li>Outcome: Enhance productivity through seamless integration.</li>
+                                    <li>Tools: Google Workspace apps</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="https://forms.gle/hGjLzUAgGiWjKNM4A" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+
+                <!-- Coding and WordPress Essentials Course -->
+                <div class="course-box">
+                    <h2>Coding and WordPress Essentials Course</h2>
+                    <span class="toggle-button" onclick="toggleDetails('codingWordPress')">Show Details</span>
+                    <div id="codingWordPress" class="course-details">
+                        <p><strong>Modules:</strong></p>
+                        <ul>
+                            <li>HTML & CSS Basics
+                                <ul>
+                                    <li>Build a simple web page with proper structure and styles.</li>
+                                    <li>Outcome: Create a webpage with formatted text, images, and navigation links.</li>
+                                    <li>Tools: Visual Studio Code</li>
+                                </ul>
+                            </li>
+                            <li>Introduction to JavaScript
+                                <ul>
+                                    <li>Add interactive elements.</li>
+                                    <li>Outcome: Make a webpage interactive.</li>
+                                    <li>Tools: Visual Studio Code</li>
+                                </ul>
+                            </li>
+                            <li>Getting Started with GitHub
+                                <ul>
+                                    <li>Upload projects and manage versions.</li>
+                                    <li>Outcome: Share code and collaborate effectively.</li>
+                                    <li>Tools: GitHub, Git CLI</li>
+                                </ul>
+                            </li>
+                            <li>WordPress Basics
+                                <ul>
+                                    <li>Set up a WordPress website and customize pages.</li>
+                                    <li>Outcome: Build a basic website or blog.</li>
+                                    <li>Tools: WordPress, Elementor (optional)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="https://forms.gle/hGjLzUAgGiWjKNM4A" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+
+                <!-- Digital Marketing & Content Creation Strategies Course -->
+                <div class="course-box">
+                    <h2>Digital Marketing & Content Creation Strategies Course</h2>
+                    <span class="toggle-button" onclick="toggleDetails('digitalMarketing')">Show Details</span>
+                    <div id="digitalMarketing" class="course-details">
+                        <p><strong>Modules:</strong></p>
+                        <ul>
+                            <li>SEO Basics
+                                <ul>
+                                    <li>Optimize content for search engines.</li>
+                                    <li>Outcome: Make a webpage searchable.</li>
+                                    <li>Tools: Google Search Console, Yoast SEO</li>
+                                </ul>
+                            </li>
+                            <li>Social Media Marketing Strategies
+                                <ul>
+                                    <li>Creating campaigns on Facebook and Instagram.</li>
+                                    <li>Outcome: Run a basic marketing campaign.</li>
+                                    <li>Tools: Meta Business Suite</li>
+                                </ul>
+                            </li>
+                            <li>Graphic Design with Canva
+                                <ul>
+                                    <li>Designing posters, flyers, and social media posts.</li>
+                                    <li>Outcome: Create attractive marketing content.</li>
+                                    <li>Tools: Canva</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="https://forms.gle/hGjLzUAgGiWjKNM4A" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+
+                <!-- Technology Problem-Solving Course -->
+                <div class="course-box">
+                    <h2>Effective Tech Solutions: Mastering Project Management Tools Course</h2>
+                    <span class="toggle-button" onclick="toggleDetails('techProblemSolving')">Show Details</span>
+                    <div id="techProblemSolving" class="course-details">
+                        <p><strong>Modules:</strong></p>
+                        <ul>
+                            <li>Using Google Drive for Collaboration
+                                <ul>
+                                    <li>Sharing files and working on documents together.</li>
+                                    <li>Outcome: Collaborate effectively online.</li>
+                                    <li>Tools: Google Drive</li>
+                                </ul>
+                            </li>
+                            <li>Project Management with Trello and Asana
+                                <ul>
+                                    <li>Creating and managing task boards.</li>
+                                    <li>Outcome: Organize tasks and projects.</li>
+                                    <li>Tools: Trello, Asana</li>
+                                </ul>
+                            </li>
+                            <li>Problem-Solving with Technology
+                                <ul>
+                                    <li>Identifying and resolving tech issues.</li>
+                                    <li>Outcome: Apply problem-solving techniques.</li>
+                                    <li>Tools: Various tech tools</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="https://forms.gle/hGjLzUAgGiWjKNM4A" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+
+                <!-- Cloud Storage Essentials Course -->
+                <div class="course-box">
+                    <h2>Cloud Storage Essentials Course</h2>
+                    <span class="toggle-button" onclick="toggleDetails('cloudStorage')">Show Details</span>
+                    <div id="cloudStorage" class="course-details">
+                        <p><strong>Modules:</strong></p>
+                        <ul>
+                            <li>Understanding Cloud Storage
+                                <ul>
+                                    <li>How cloud storage works.</li>
+                                    <li>Outcome: Use cloud storage effectively.</li>
+                                    <li>Tools: Google Drive, Dropbox</li>
+                                </ul>
+                            </li>
+                            <li>Managing Files and Folders in the Cloud
+                                <ul>
+                                    <li>Organizing files and sharing permissions.</li>
+                                    <li>Outcome: Manage files efficiently in the cloud.</li>
+                                    <li>Tools: Google Drive, Dropbox</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a href="https://forms.gle/hGjLzUAgGiWjKNM4A" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <section id="about">
+            <h1>About Us</h1>
+            <p style="text-align: center;">Learn Academy is dedicated to enhancing digital literacy and technological skills. 
+                Our courses are designed for all levels to ensure everyone can master essential tech skills.</p>
+        </section>
+
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <p style="text-align: center;">If you have any questions or need assistance, feel free to reach out!</p>
+           <p style="text-align: center;"> <a href="mailto:info@foundlinkdigital.com?subject=Course%20Inquiry" class="cta-button">Send Message</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Learn Academy. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleDetails(courseId) {
+            const details = document.getElementById(courseId);
+            if (details.style.display === "none" || details.style.display === "") {
+                details.style.display = "block"; // Show details
+            } else {
+                details.style.display = "none"; // Hide details
+            }
+        }
+    </script>
+</body>
+</html>
+<script></script>
